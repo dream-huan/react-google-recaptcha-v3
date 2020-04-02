@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-npm install react-google-recaptcha-v3
+npm install react-google-recaptcha-v3-cn
 ```
 
 ## Usage
