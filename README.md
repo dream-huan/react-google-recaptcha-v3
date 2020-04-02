@@ -2,7 +2,7 @@
 
 ## Overview
 
-`react-google-recaptcha-v3` is a library created to assist integrating Google ReCaptcha V3 to your React App.
+`react-google-recaptcha-v3-cn` is a library created to assist integrating Google ReCaptcha V3 to your React App.
 
 添加了中国访问的地址，感谢原作者：duongtran
 
@@ -16,13 +16,13 @@ npm install react-google-recaptcha-v3-cn
 
 #### Provide Recaptcha Key
 
-To use `react-google-recaptcha-v3`, you need to create a recaptcha key for your domain, you can get one from [here](https://www.google.com/recaptcha/intro/v3.html).
+To use `react-google-recaptcha-v3-cn`, you need to create a recaptcha key for your domain, you can get one from [here](https://www.google.com/recaptcha/intro/v3.html).
 
 #### Components
 
 ##### GoogleReCaptchaProvider
 
-`react-google-recaptcha-v3` provides a `GoogleReCaptchaProvider` provider component that should be used to wrap around your components.
+`react-google-recaptcha-v3-cn` provides a `GoogleReCaptchaProvider` provider component that should be used to wrap around your components.
 
 `GoogleReCaptchaProvider`'s responsibility is to load the necessary reCaptcha script and provide access to reCaptcha to the rest of your application.
 
@@ -30,7 +30,7 @@ It also provides an optional prop `language` to support different languages that
 https://developers.google.com/recaptcha/docs/language
 
 ```javascript
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3-cn';
 
 ReactDom.render(
   <GoogleReCaptchaProvider
@@ -53,7 +53,7 @@ Afterwards, there are three ways to trigger the recaptcha validation, the first 
 import {
   GoogleReCaptchaProvider,
   GoogleReCaptcha
-} from 'react-google-recaptcha-v3';
+} from 'react-google-recaptcha-v3-cn';
 
 ReactDom.render(
   <GoogleReCaptchaProvider reCaptchaKey="[Your recaptcha key]">
@@ -73,7 +73,7 @@ The object contains the `executeRecaptcha` function that can be called to valida
 import {
   GoogleReCaptchaProvider,
   withGoogleReCaptcha
-} from 'react-google-recaptcha-v3';
+} from 'react-google-recaptcha-v3-cn';
 
 class ReCaptchaComponent extends React.Component {
   async componentDidMount() {
@@ -105,7 +105,7 @@ It's very simple to use the hook:
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha
-} from 'react-google-recaptcha-v3';
+} from 'react-google-recaptcha-v3-cn';
 
 // Remember that the hook can only be used within a React functional component
 const YourReCaptchaComponent  = () => {

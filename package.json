@@ -1,9 +1,9 @@
 {
   "name": "react-google-recaptcha-v3-cn",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "React component for google-recaptcha v3",
-  "module": "dist/react-google-recaptcha-v3.esm.js",
-  "main": "dist/react-google-recaptcha-v3.cjs.js",
+  "module": "dist/react-google-recaptcha-v3-cn.esm.js",
+  "main": "dist/react-google-recaptcha-v3-cn.cjs.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "jest --verbose --env=jsdom",
@@ -13,11 +13,11 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "author": "LPJpei",
-  "homepage": "https://github.com/LPJpei/react-google-recaptcha-v3",
+  "homepage": "https://github.com/LPJpei/react-google-recaptcha-v3-cn",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LPJpei/react-google-recaptcha-v3"
+    "url": "https://github.com/LPJpei/react-google-recaptcha-v3-cn"
   },
   "peerDependencies": {
     "react": "^16.8",
